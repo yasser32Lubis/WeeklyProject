@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Oxanium:400,500,600,700,800|Poppins:400,400i,500,500i,600,600i,700,700i&display=swap');
+@font-face {
+  font-family: 'poppins';
+  src: url('https://fonts.googleapis.com/css?family=Oxanium:400,500,600,700,800|Poppins:400,400i,500,500i,600,600i,700,700i&display=swap');
+}
+
+body {
+  margin: 0;
+  font-family:'poppins';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace, 'poppins';
+}
+.footer-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 64px;
+  
+}
+
+.icon-social{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.icon-social img{
+  width: 30px;
+  height: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.signup-news{
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+  align-items: baseline;
+  justify-content: center;
+}
+.signup-news p{
+  margin-right: 16px;
+  font-weight: bold;
+}
+.signup-news input{
+  margin-left: 16px;
+  background-color: #f5f5f5;
+  border: 3px solid #000;
+  width: 400px;
+}
+.signup-news button{
+  background-color: #000;
+  color: #f5f5f5;
+  font-weight: bold;
+  margin-left: 16px;
+  border: none;
+  width: 100px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 50px;
+}
+
+.signup-news button:hover{
+  background-color: #f5f5f5;
+  color: #000;
+}
+
+.ket-footer{
+  margin-top: 16px;
+}
+.links{
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+}
+.links1{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 32px;
+}
+.links1 p{
+  font-weight: bold;
+}
+.links1 ul li{
+  text-transform: none;
+  list-style: none;
+}
+
+.links2{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 32px;
+}
+.links2 p{
+  font-weight: bold;
+}
+.links2 ul li{
+  text-transform: none;
+  list-style: none;
+}
+.links3{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 32px;
+}
+.links3 p{
+  font-weight: bold;
+}
+.links3 ul li{
+  text-transform: none;
+  list-style: none;
+}
+
+.copyright{
+  display: flex;
+  flex-direction: row;
+  background-color: #000;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.copyright p{
+  font-weight: bold;
+  color: #f5f5f5;
+  padding: 8px;
+  align-items: center;
+}
